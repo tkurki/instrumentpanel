@@ -6,7 +6,7 @@ when the panel receives data it hasn't seen before a new cell is added to the gr
 ![demo](./dist/help/main-page.png)
 
 Step 1 (connect):
----
+___
 When you open main page of Instrument Panel (IP), you have to enter the address of your SignalK server (1).  
 In most case, the address is the same as URL of Instrument Panel and box is auto filled.  
 Then click on the connect button(2).  
@@ -24,7 +24,7 @@ Units are set to default and feched from your SignalK Server metadata if provide
 Use this button to unlock your grid to move and resize your widgets (see Arrange your page design below).  
 - Change settings ![settings](./dist/help/settings-icon.png):  
 Use this button to display the settings page (See settings page below )  
-- 
+
 
 - Arrange your page design:  
 A button at the top left of the main bar, locks ![lock](./dist/help/button-lock.png) and unlocks ![unlock](./dist/help/button-unlock.png) your widgets on the grid.  
