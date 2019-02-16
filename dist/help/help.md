@@ -1,6 +1,6 @@
 <style
   type="text/css">
-  img[src*="#minimize"] {
+  img[src*="#maxwidth"] {
     max-width: 100%;
   }
 </style>
@@ -10,11 +10,11 @@ ___
 Components are added dynamically eg.
  when the panel receives data it hasn't seen before a new cell is added to the grid by the bottom.  
 
-![demo](./dist/help/main-page.png#minimize)
+![demo](./dist/help/main-page.png#maxwidth)
 ___
 **1. Connect to your SignalK server:**  
 ___
-![connect](./dist/help/connect.png#minimize)  
+![connect](./dist/help/connect.png#maxwidth)  
 When you open the main page of Instrument Panel,
  you have to enter the address of your SignalK server (1).
  In most case, the address is the same as URL of Instrument Panel or automatically filled in by mdns.  
@@ -26,7 +26,7 @@ At the first login, a initial first page is auto generated with all paths know i
 SignalK paths are displayed in different cells with dedicated component depending on there type.
 Component are arrange on virtual grid with vertical compaction.  
 **Units** on component are set to default and fetched from your SignalK Server metadata if provided.  
-![main-page](./dist/help/main-page-default.png#minimize)  
+![main-page](./dist/help/main-page-default.png#maxwidth)  
   
 On the right of main bar, ![disconnect](./dist/help/disconnect-icon.png) is button
  to disconnecting from your SignalK server and return to the connect page.  
@@ -37,7 +37,7 @@ In furure version a auto-reconnect will be implemented.
 ___
 **2.1. Change display page:**  
 ___
-![multi-page](./dist/help/multi-page.png#minimize)  
+![multi-page](./dist/help/multi-page.png#maxwidth)  
 You can have up to 10 pages with a specific component organization.  
 To change page, just click on page number.  
 ___
@@ -53,17 +53,17 @@ ___
 Use the ![lock](./dist/help/button-lock.png) button on the main bar to free your grid,  
 After, organize your component placement as you want.  
 When grid is unlocked, component background change to gold color and feature are hidden.  
-![widget-unlock](./dist/help/widget-gold.png#minimize)  
+![widget-unlock](./dist/help/widget-gold.png#maxwidth)  
 To return in normal mode and lock your grid, click on ![unlock](./dist/help/button-unlock.png) button  
 ___
 **2.3.1. Move and resize your component:**  
 ___
 On a unlocked grid:  
 **Resize** a component by dragging the anchor located on the bottom right of it.  
-![resize](./dist/help/widget-resize.png#minimize)  
+![resize](./dist/help/widget-resize.png#maxwidth)  
   
 **Move** a component by draging it on the grid.  
-![drag](./dist/help/widget-drag.png#minimize)  
+![drag](./dist/help/widget-drag.png#maxwidth)  
 ___
 **2.3.2. For iOS users:**  
 ___
@@ -81,9 +81,9 @@ ___
 ___
 To display source Id of one component's data stream,
  click on to top right of component.  
-![sourceID-hidden](./dist/help/widget-sourceID-hidden.png#minimize)  
+![sourceID-hidden](./dist/help/widget-sourceID-hidden.png#maxwidth)  
 To hide sourceId, just click in zone of sourceId displayed.  
-![sourceID-visible](./dist/help/widget-sourceID-visible.png#minimize)  
+![sourceID-visible](./dist/help/widget-sourceID-visible.png#maxwidth)  
 ___
 **3. Switch in setting mode:**  
 ___
@@ -93,17 +93,17 @@ In setting mode, use view button ![view](./dist/help/view-icon.png) to return in
 ___
 **3.1. Add /delete page:**  
 ___
-![multi-page](./dist/help/add-page-before.png#minimize)  
+![multi-page](./dist/help/add-page-before.png#maxwidth)  
 You can have up to 10 pages with a specific component organization.  
 To add a new page, just click on ![button-plus](./dist/help/button-plus.png) button.
- The new page is automatically selected ![add-page-after](./dist/help/add-page-after.png#minimize)  
+ The new page is automatically selected ![add-page-after](./dist/help/add-page-after.png#maxwidth)  
 To delete an unnecessary page, click on the page number and
  then on ![button-delCurrent](./dist/help/button-delCurrent.png) button  
 ___
 **3.2. Hide / Show component:**  
 ___
 A common option for all components is the **visible** option  
-![visible](./dist/help/widget-settings-visible.png#minimize)  
+![visible](./dist/help/widget-settings-visible.png#maxwidth)  
 Unselect/Select checkbox to hide/show the component on main page.  
 By default, all new components are visible.  
 ___
@@ -111,7 +111,7 @@ ___
 ___
 Most of components have a unit settings.  
 Select your prefered unit in listbox.  
-![unit](./dist/help/widget-settingUnit.png#minimize)  
+![unit](./dist/help/widget-settingUnit.png#maxwidth)  
 To make the unit change active, please disconnect and reconnect.  
 ___
 **3.4. Components settings:**  
@@ -123,35 +123,35 @@ ___
 This component have 2 displays view possible (digital/analog).  
 Chose your prefered view by selecting the radio button.  
 - **digital view**  
-![universal-digital](./dist/help/widget-settings-digital.png#minimize)  
+![universal-digital](./dist/help/widget-settings-digital.png#maxwidth)  
 - **analog view** have more settings.  
 You can set the minimal and maximal values displayed.  
 And also set the red line value.  
-![universal-analog](./dist/help/widget-settings-analog.png#minimize)  
+![universal-analog](./dist/help/widget-settings-analog.png#maxwidth)  
 ___
 **3.4.2. Compass component settings:**  
 ___
 This component have 3 displays view possible (rose/reading/digital).  
 Chose your prefered view by selecting the radio button.  
 - **Rose view**  
-![compass-rose](./dist/help/widget-settings-compass-rose.png#minimize)  
+![compass-rose](./dist/help/widget-settings-compass-rose.png#maxwidth)  
 - **Reading view**  
-![compass-reading](./dist/help/widget-settings-compass-reading.png#minimize)  
+![compass-reading](./dist/help/widget-settings-compass-reading.png#maxwidth)  
 - **Digital view**  
-![compass-digital](./dist/help/widget-settings-compass-digital.png#minimize)  
+![compass-digital](./dist/help/widget-settings-compass-digital.png#maxwidth)  
 ___
 **3.4.3. Windmeter component settings:**  
 ___
 This component have just unit option settings.  
 Apparent Wind, True Wind over Ground and True Wind through Water values are automatically bind on component.  
-![settings-windmeter](./dist/help/widget-settings-windmeter.png#minimize)  
+![settings-windmeter](./dist/help/widget-settings-windmeter.png#maxwidth)  
 ___
-**3.4.4. Windmeter component settings:**  
+**3.4.4. Digitaldatetime component settings:**  
 ___
 This component have just timezone option settings.  
 In timezone list, **DST** mean Daylight Saving Time and dispay time automatically in timezone
  set on your device running the browser.  
-![settings-digitaldatetime](./dist/help/widget-settings-digitaldatetime.png#minimize)  
+![settings-digitaldatetime](./dist/help/widget-settings-digitaldatetime.png#maxwidth)  
 ___
 **4. Trouble?**  
 ___
