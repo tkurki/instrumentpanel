@@ -9,8 +9,12 @@ ___
 **Instrument panel** is implemented as a grid with draggable &amp; resizable widgets.  
 Widgets are added dynamically eg.
  when the panel receives data it hasn't seen before a new cell is added to the grid from the bottom.  
-
-![demo](./dist/help/main-page.png#maxwidth)
+![demo](./dist/help/main-page.png#maxwidth)  
+  
+When the help page is displayed all buttons are disabled.  
+You must close the help page by clicking on the ![help-on](./dist/help/help-on-icon.png)
+ button to reactivate them.  
+  
 ___
 **1. Connect to your SignalK server:**  
 ___
