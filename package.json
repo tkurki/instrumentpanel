@@ -53,7 +53,6 @@
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "marked": "^0.6.0",
-    "@vx/text": "^0.0.183"
+    "marked": "^0.6.0"
   }
 }
