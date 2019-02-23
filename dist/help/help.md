@@ -85,6 +85,24 @@ To display source Id of one widget's data stream,
 To hide sourceId, just click in the displayed sourceId field.  
 ![sourceID-visible](./dist/help/widget-sourceID-visible.png#maxwidth)  
 ___
+**2.5. Widget Wind Meter:**  
+___
+The widget Wind Meter display by default apparent wind.  
+This widget can also display True Wind over Ground and True Wind through Water
+ if your SignalK server provide them (see: 2.2. Change display options of widgets).  
+If not, an alert message is raised when you try to display these values.  
+![windmeter-alert](./dist/help/widget-windmeter-alert.png#maxwidth)  
+As described, you can build these values with the `Derived Data` plugin available in SignalK server AppStore:  
+![DerivedData-appStore](./dist/help/plugin-DerivedData-appStore.png#maxwidth)  
+Install the pluging and restart your SignalK server.  
+Locate the pluging in `Server/Plugin Config`:  
+![skServer-PluginConfig](./dist/help/skServer-PluginConfig.png#maxwidth)  
+Activate the plugin:  
+![DerivedData-active](./dist/help/plugin-DerivedData-active.png#maxwidth)  
+Enable the options for True Wind over Ground and True Wind through Water:  
+![DerivedData-options](./dist/help/plugin-DerivedData-options.png#maxwidth)  
+And then click on ![DerivedData-submit](./dist/help/plugin-DerivedData-submit.png) button to save theses options.  
+___
 **3. Switch to settings:**  
 ___
 Use this button ![settings](./dist/help/settings-icon.png) to switch to settings.
